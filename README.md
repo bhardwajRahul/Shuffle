@@ -5,21 +5,35 @@
 Shuffle Automation
 
 </h1><h4 align="center">
-
-  <div>
-    <p>Deploy<p/>
+  
+  <p>Deploy<p/>
+  <div style="display: flex">
     <a
-    href="https://console.cloud.google.com/marketplace/product/shuffle-public/shuffle"
-    target="_blank"
-    style="text-decoration: none; display: flex; align-items: center; gap: 8px;"
-  >
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg"
-      height="20"
-      alt="Google Cloud Platform"
-    />
-  </a>
+      href="https://console.cloud.google.com/marketplace/product/shuffle-public/shuffle"
+      target="_blank"
+      style="text-decoration: none; display: flex; align-items: center; gap: 8px;"
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg"
+        height="20"
+        alt="GCP install of Shuffle - Google Cloud Platform"
+      />      
+    </a>
+    <a
+      href="https://aws.amazon.com/marketplace/pp/prodview-typ7upg6kwntk"
+      target="_blank"
+      style="text-decoration: none; display: flex; align-items: center; gap: 24px;"
+    >
+      <img
+        src="https://raw.githubusercontent.com/Shuffle/Shuffle/refs/heads/main/frontend/public/icons/AWS-Logo.svg"
+        height="20"
+        style="background-color: white;"
+        alt="AWS install of Shuffle - Amazon Web Services"
+      />      
+    </a>
+      
   </div>
+
 
 
 [Shuffle](https://shuffler.io) is an open source automation platform, built for and by the security professionals. Security operations is complex, but it doesn't have to be. Built to work well with MSSP's and other service providers in mind.
@@ -39,10 +53,6 @@ Follow us on Twitter at [@shuffleio](https://twitter.com/shuffleio).
 </h4>
 
 ![Example Shuffle webhook integration](https://github.com/shuffle/Shuffle/blob/main/frontend/src/assets/img/github_shuffle_img.png)
-
-## Deployment
-
-**Shuffle can be deployed using the following cloud marketplaces:**
 
 ## Try it
 * Self-hosted: Check out the [installation guide](https://github.com/shuffle/shuffle/blob/master/.github/install-guide.md)
